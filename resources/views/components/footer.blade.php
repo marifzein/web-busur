@@ -51,7 +51,7 @@
 
         </div>
 
-        <div class="pt-8 border-t border-zinc-800 text-center text-xs text-gray-500">
+        <div class="pt-8  text-center text-xs text-gray-500">
             &copy; {{ date('Y') }} Cahaya Busur Digital Print & ATK. All rights reserved.
         </div>
     </div>

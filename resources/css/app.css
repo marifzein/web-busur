@@ -1,4 +1,4 @@
-@import 'tailwindcss';
+@import "tailwindcss";
 
 @source '../../vendor/laravel/framework/src/Illuminate/Pagination/resources/views/*.blade.php';
 @source '../../storage/framework/views/*.php';
@@ -6,6 +6,16 @@
 @source '../**/*.js';
 
 @theme {
-    --font-sans: 'Instrument Sans', ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
-        'Segoe UI Symbol', 'Noto Color Emoji';
+    /* Font Family Custom */
+    --font-sans: "Plus Jakarta Sans", sans-serif;
+    --font-heading: "Poppins", sans-serif;
+
+    /* Color Palette Custom (brand-*) */
+    --color-brand-orange: #e9820c;
+    --color-brand-orange-hover: #d0730a;
+    --color-brand-green: #00b14f;
+    --color-brand-green-bright: #aff175;
+    --color-brand-green-dark: #063231;
+    --color-brand-dark: #111827;
+    --color-brand-cream: #f4f4ee;
 }

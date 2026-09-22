@@ -68,7 +68,7 @@
                     </div>
 
                     {{-- Custom Header Profil Kita --}}
-                    {{-- <div class="flex items-center justify-between mb-2.5 px-0.5">
+                    <div class="flex items-center justify-between mb-2.5 px-0.5">
                         <div class="flex items-center gap-2">
                             <div class="w-7 h-7 rounded-full bg-brand-green-dark text-brand-green-bright flex items-center justify-center text-[10px] font-black border border-brand-green-bright">
                                 CB
@@ -83,31 +83,21 @@
                            class="bg-rose-500 hover:bg-rose-600 text-white text-[10px] font-bold px-2.5 py-1 rounded-md transition-colors">
                             View Profile
                         </a>
-                    </div> --}}
-
-                    {{-- Reel Video Embed (Header Bawaan IG Dipotong Ke Atas) --}}
-                    {{-- class="w-full h-[calc(100%+56px)] -mt-[56px] border-none overflow-hidden"  --}}
-                    <div class="relative w-full aspect-[9/13] bg-black rounded-xl overflow-hidden mb-3">
-                        <iframe src="{{ $reel['embed'] }}" 
-                                class="w-full h-[calc(100%+56px)]  border-none overflow-hidden" 
-                                scrolling="no" 
-                                allowtransparency="true" 
-                                allow="encrypted-media">
-                        </iframe>
                     </div>
 
-                    {{-- <div class="relative w-full h-[400px] overflow-hidden rounded-xl mb-3">
+                    {{-- Reel Video Embed (Header Bawaan IG Dipotong Ke Atas) --}}
+                    <div class="relative w-full aspect-[9/13] bg-black rounded-xl overflow-hidden mb-3">
                         <iframe src="{{ $reel['embed'] }}" 
                                 class="w-full h-[calc(100%+56px)] -mt-[56px] border-none overflow-hidden" 
                                 scrolling="no" 
                                 allowtransparency="true" 
                                 allow="encrypted-media">
                         </iframe>
-                    </div> --}}
+                    </div>
                     
 
                     {{-- Footer & Call To Action --}}
-                    {{-- <div class="flex flex-col justify-between flex-grow gap-3 pt-1">
+                    <div class="flex flex-col justify-between flex-grow gap-3 pt-1">
                         <h3 class="text-xs font-bold text-gray-800 line-clamp-1" title="{{ $reel['title'] }}">
                             {{ $reel['title'] }}
                         </h3>
@@ -115,19 +105,6 @@
                         <a href="https://wa.me/6281139415777?text=Halo%20Cahaya%20Busur,%20saya%20tertarik%20dengan%20produk%20di%20video%20{{ urlencode($reel['title']) }}" 
                            target="_blank"
                            class="w-full py-2.5 bg-brand-green-bright hover:bg-emerald-400 text-brand-green-dark text-xs font-extrabold rounded-xl flex items-center justify-center gap-2 shadow-sm transition-all transform hover:-translate-y-0.5">
-                            <i data-lucide="shopping-cart" class="w-4 h-4"></i>
-                            Pesan Sekarang
-                        </a>
-                    </div> --}}
-                    {{-- Footer & Call To Action --}}
-                    <div class="flex flex-col justify-between flex-grow gap-3 pt-1">
-                        <h3 class="text-xs font-bold text-gray-800 line-clamp-1 text-center" title="{{ $reel['title'] }}">
-                            {{ $reel['title'] }}
-                        </h3>
-                        
-                        <a href="https://wa.me/6281139415777?text=Halo%20Cahaya%20Busur,%20saya%20tertarik%20dengan%20produk%20di%20video%20{{ urlencode($reel['title']) }}" 
-                        target="_blank"
-                        class="w-full py-2.5 bg-brand-green-bright hover:bg-emerald-400 text-brand-green-dark text-xs font-extrabold rounded-xl flex items-center justify-center gap-2 shadow-sm transition-all transform hover:-translate-y-0.5">
                             <i data-lucide="shopping-cart" class="w-4 h-4"></i>
                             Pesan Sekarang
                         </a>
