@@ -19,7 +19,7 @@
                     <p class="text-2xl sm:text-3xl lg:text-4xl font-bold text-gray-200">
                         Pusat Digital Printing & ATK
                     </p>
-                    <p class="text-base sm:text-2xl text-orange-400 font-bold mt-1">
+                    <p class="text-base sm:text-2xl text-orange-400 font-bold mt-1 tracking-widest">
                         Terlengkap & Terbaik di Bojonegoro
                     </p>
                 </div>
