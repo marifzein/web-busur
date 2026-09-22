@@ -37,7 +37,7 @@
                 <div class="bg-[#F8F9FA] rounded-2xl p-6 border border-gray-200 flex flex-col justify-between">
                     <div class="space-y-4">
                         <div class="flex items-center justify-between">
-                            <span class="bg-brand-green text-white text-xs font-bold px-3 py-1 rounded-full">Cabang 0{{ $index + 1 }}</span>
+                            <span class="bg-brand-green text-white text-xs font-bold px-3 py-1 rounded-full">Cabang {{ $index + 1 }}</span>
                             <span class="text-xs font-bold text-emerald-600 flex items-center gap-1">
                                 <span class="w-2 h-2 rounded-full bg-emerald-500"></span> Buka Hari Ini
                             </span>

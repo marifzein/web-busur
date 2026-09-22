@@ -4,7 +4,7 @@
             
             <!-- Col 1: Brand Info -->
             <div class="space-y-4">
-                <span class="text-3xl font-black text-emerald-500 tracking-tight block">cahaya busur</span>
+                <span class="text-3xl font-black text-brand-green-bright tracking-tight block">cahaya busur</span>
                 <p class="text-gray-400 text-xs leading-relaxed">
                     Pusat percetakan digital, offset printing, dan penyedia alat tulis kantor (ATK) terpercaya di Bojonegoro.
                 </p>
@@ -42,10 +42,10 @@
             <!-- Col 4: Cabang Ringkas -->
             <div>
                 <h4 class="text-sm font-bold text-white uppercase tracking-wider mb-4">3 Lokasi Toko</h4>
-                <ul class="space-y-2 text-xs text-gray-400">
-                    <li>1. Jl. Teuku Umar No. 67 (Depan Superindo)</li>
-                    <li>2. Jl. Pemuda No. 56A (Bravo Swalayan ke Timur)</li>
-                    <li>3. Jl. Panglima Polim No. 63 Sumbang</li>
+                <ul class="list-disc list-inside space-y-2 text-xs text-gray-400">
+                    <li>Jl. Teuku Umar No. 67 (Depan Superindo)</li>
+                    <li>Jl. Pemuda No. 56A (Bravo Swalayan ke Timur)</li>
+                    <li>Jl. Panglima Polim No. 63 Sumbang</li>
                 </ul>
             </div>
 
