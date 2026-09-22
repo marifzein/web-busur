@@ -58,9 +58,9 @@
 
             <!-- Desktop Nav Links -->
             <nav class="hidden md:flex items-center gap-8 font-semibold text-sm text-gray-200">
-                <a href="#hero" class="hover:text-brand-green-bright transition-colors">Home</a>
-                <a href="#layanan" class="hover:text-brand-green-bright transition-colors">Layanan & Jasa</a>
+                <a href="#hero" class="hover:text-brand-green-bright transition-colors">Home</a>    
                 <a href="#reels" class="hover:text-brand-green-bright transition-colors">Portofolio Video</a>
+                <a href="#layanan" class="hover:text-brand-green-bright transition-colors">Layanan & Jasa</a>
                 <a href="#cabang" class="hover:text-brand-green-bright transition-colors">Lokasi Cabang</a>
             </nav>
 
